@@ -1,0 +1,23 @@
+{
+  "name": "spo-external-auth",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "author": {
+    "name": "James Rishe"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^2.1.0",
+    "node-fetch": "^1.7.3",
+    "ramda": "^0.25.0",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git"
+  },
+  "keywords": []
+}
