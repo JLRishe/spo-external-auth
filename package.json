@@ -9,6 +9,7 @@
     "name": "James Rishe"
   },
   "dependencies": {
+    "func-xml": "0.0.3",
     "https-proxy-agent": "^2.1.0",
     "node-fetch": "^1.7.3",
     "ramda": "^0.25.0",

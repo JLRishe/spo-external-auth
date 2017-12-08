@@ -1,1 +1,8 @@
-module.exports = f => function () { return Promise.resolve().then(() => f.apply(null, arguments)); }
+const { compose, __, apply, bind, curry, partial } = require('ramda');
+const probe = val => { console.log(val); return val; };
+
+const resolved = Promise.resolve();
+const then = curry((f, p) => p.then(f));
+const allArgs = (...args) => args;
+
+module.exports = f => compose(then(__, resolved), partial(f), allArgs);
